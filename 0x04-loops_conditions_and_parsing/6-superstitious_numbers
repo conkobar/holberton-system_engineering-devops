@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+#script to acquire international curses
+
+i=0
+while [[ $i -lt 20 ]]
+do
+
+		case $i in
+
+			4)
+				echo "bad luck from China"
+				;;
+
+			9)
+				echo "bad luck from Japan"
+				;;
+
+			17)
+				echo "bad luck from Italy"
+				;;
+
+		esac
+
+	echo $(( i + 1 ))
+	((i++))
+done
