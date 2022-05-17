@@ -2,9 +2,15 @@
 # script to make da clock
 
 HOUR=0
-MIN=1
-
-while [[ $HOUR -le 12 ]]
+while [ $HOUR -le 12 ]
 do
-	if [[ $HOUR -ne 12]]
-
+	echo "Hour: $HOUR"
+	((HOUR++))
+	
+		MIN=1
+		while [ $MIN -lt 60 ]
+		do
+			echo "$MIN"
+			((MIN++))
+		done
+done
