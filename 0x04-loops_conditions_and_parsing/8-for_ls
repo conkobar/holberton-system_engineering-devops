@@ -3,5 +3,5 @@
 
 for i in /.
 do
-	find | cut -d '-' -2
+	find . -type f | cut -d '-' -f 2-
 done
