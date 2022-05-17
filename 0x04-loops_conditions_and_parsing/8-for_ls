@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# this loop will display a list of dir contents, removing text up to first -
+
+for i in /.
+do
+	find | cut -d '-' -2
+done
