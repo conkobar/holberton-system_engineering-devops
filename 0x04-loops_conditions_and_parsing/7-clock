@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# script to make da clock
+
+HOUR=0
+MIN=1
+
+while [[ $HOUR -le 12 ]]
+do
+	if [[ $HOUR -ne 12]]
+
