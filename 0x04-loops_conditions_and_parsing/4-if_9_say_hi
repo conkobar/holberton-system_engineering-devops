@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#this is a loop to print best school 10 times, with hi after the 9th
+
+i=1
+while [[ $i -le 10 ]]
+do
+	echo "Best School"
+	((i++))
+
+if [[ $i = 10 ]]
+then
+	echo "Hi"
+fi
+done
