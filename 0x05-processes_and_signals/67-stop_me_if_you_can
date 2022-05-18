@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#this is a script to kill the loop without the kill command
+
+pkill "$(pgrep -f 7-highlander)"
