@@ -1,1 +1,4 @@
 #!/usr/bin/env bash
+#this script will actually kill the highlander loop
+
+pkill -9 -f '7-highlander'
