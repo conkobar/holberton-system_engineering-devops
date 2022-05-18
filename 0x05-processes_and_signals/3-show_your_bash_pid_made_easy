@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#this is a simpler script to display process info for bash
+
+pgrep -l bash
