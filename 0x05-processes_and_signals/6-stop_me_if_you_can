@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #this is a script to kill the loop without the kill command
 
-trap $(pgrep -f 4-to_infinity_and_beyond)
+pkill "$(pgrep -f 4-to_infinity_and_beyond)"
